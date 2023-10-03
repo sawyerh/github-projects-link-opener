@@ -1,5 +1,4 @@
 function openIssue(url) {
-  history.replaceState(null, "", url);
   window.location.href = url;
 }
 
