@@ -1,0 +1,15 @@
+{
+  "name": "GitHub Projects link opener",
+  "version": "1.0.0",
+  "description": "Stops GitHub Projects default behavior of opening links in an in-page panel, and instead opens the Issue permalink page.",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["scripts.js"]
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  },
+  "manifest_version": 3
+}
